@@ -1,0 +1,144 @@
+@font-face {
+    font-family: "Roboto";
+    /*src: url('../fonts/Roboto-Regular.ttf');*/
+	src: url('https://fonts.googleapis.com/css?family=Roboto');
+  
+}
+
+
+html, body {
+    font-family: "Roboto";
+    min-height: 100%;
+}
+body>.wrap{
+    min-height: calc(100vh - 80px);
+}
+
+input, .input-lg, .btn{
+    border-radius: 3px;
+}
+.material-shadow{
+    background-color: white;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1), 0 1px 2px rgba(0,0,0,0.1);
+    padding-top: 5px;
+}
+
+.tt-menu .tt-suggestion{
+    text-overflow: ellipsis;
+    overflow-x: hidden;
+}
+
+.navbar{
+    background-color: #fafafa;
+}
+
+.price-tag{
+    position: absolute;
+    top:5px;
+    left: 5px;
+    font-size: 17px;
+    border-top-left-radius: 0;
+}
+
+.ad-fav-btn, .remove-fav-btn{
+    font-size: 14px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border-color: transparent;
+    border-top-right-radius: 0;
+}
+.ad-list-element:hover {
+    background-color: rgba(92, 184, 92, 0.09);
+    cursor: pointer;
+}
+.remove-fav-btn{
+    font-size: 20px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-bottom: 0px;
+    padding-top: 0px; 
+}
+.add-fav-btn, .cancel-fav-btn{
+
+}
+
+.cancel-fav-btn{
+    background-color: #5cb85c;
+    color: white;
+}
+
+.house-image{
+    border-radius: 2px;
+    height: 250px;
+    overflow-y: hidden;
+    display: block;
+    background-color: rgba(0,0,0, 0.2);
+}
+.house-title{
+    height: 40px;
+    overflow-y: hidden;
+    margin-bottom: 0;
+}
+
+.house-description{
+    height: 80px;
+    overflow-y: hidden;
+}
+
+.quick-search-content .form-group{
+    margin-bottom: 6px;
+}
+
+
+.favs-empty{
+    text-align: center;
+    margin-top: 10%;
+}
+
+.house-index .list-view,
+.favs-index .list-view{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.ad-list-element{
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 10px;
+    background-color: white;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1), 0 1px 2px rgba(0,0,0,0.1);
+}
+
+/*POPOVERS*/
+.popover-filter{
+    position: fixed;
+    z-index: 2000;
+    top: 96px;
+}
+.popover-filter-mobile{
+    top: 135px;
+    
+}
+.popover-filter.popover-md{
+    width: 250px;
+    min-width: 200px;
+}
+.popover-filter-mobile.popover-filter.popover-md{
+    
+    width: calc(100vw - 30px);
+    max-width: none;
+    min-width: 200px;
+}
+
+.popover-filter .popover-footer{
+
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+.popover-filter .popover-content{
+    padding: 15px;
+}
+

@@ -1,0 +1,73 @@
+@font-face{
+    font-family: "Monserrat";
+    src: url("montserrat/Montserrat-Medium.otf");
+}
+body{
+    color: white;
+    font-family: "Monserrat";
+    margin: 0;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+header>div{
+    display: inline-block
+}
+header li{
+    cursor: pointer;
+}
+header li:hover{
+    opacity: 0.5;
+}
+
+.slide-page{
+    height: 100vh;
+    padding: 15px;
+
+}
+
+.button{
+    background: #4495d4;
+    padding: 0 2em;
+    box-shadow: 0 3px 6px -2px rgba(0,0,0,0.5);
+    height: 42px;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 1.181em;
+    font-weight: 500;
+    margin: 0 auto;
+    margin-bottom: .8rem;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+#menu{
+    float: left;
+    display: inline-block;
+    font-size: 21px;
+   
+}
+#menu>ul{
+    list-style-type: none;
+}
+#social{
+    float: right;
+    display: inline-block;
+    text-align: right;
+}
+#social a{
+    text-decoration: none;
+    color: white;
+}
+#welcome{
+    text-align: center;
+    background-color: #58b792;
+
+}
