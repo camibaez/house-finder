@@ -46,7 +46,7 @@ class HouseController extends Controller {
     public function actionSearch() {
         $searchModel = new HouseSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
-        $searchModel->saveSearch();
+        //$searchModel->saveSearch();
 
         return $this->render('index', ['dataProvider' => $dataProvider, 'searchModel' => $searchModel]);
     }

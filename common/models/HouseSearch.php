@@ -111,7 +111,7 @@ class HouseSearch extends House {
 
         $this->loadGlobalValues();
 
-        $cleanTerms = $this->cleanTerms;
+        $cleanTerms = $this->getCleanTerms();
         $locations = $this->getNormalizedLocations($cleanTerms);
 
         $rankFunctions = [];
